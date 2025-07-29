@@ -6,13 +6,14 @@ const MarqueeImages = () => {
   const categories = {
     "Right Images": [
       {
-        imageUrl: "https://i.postimg.cc/mk2JGKty/IMG-2374.jpg",
+        imageUrl: "https://i.postimg.cc/qMjtgYbD/IMG-5863-1.jpg",
       },
       {
         imageUrl: "https://i.postimg.cc/66f4k6Rv/IMG-2377.jpg",
       },
       {
-        imageUrl: "https://i.postimg.cc/kMQW7vrD/IMG-2375.jpg",
+        imageUrl:
+          "https://i.postimg.cc/xTx4gfpv/F3-ADBD48-4-FAE-416-C-B99-F-DE06-BB418986-1.jpg",
       },
       {
         imageUrl:
@@ -28,7 +29,8 @@ const MarqueeImages = () => {
     ],
     "Left Images": [
       {
-        imageUrl: "https://i.postimg.cc/Hn6GQ8N5/IMG-2368.jpg",
+        imageUrl:
+          "https://i.postimg.cc/HLhWg1LX/48-CBB1-F6-FC02-4-CE2-B6-C3-56-BC0-DBCA677.jpg",
       },
       {
         imageUrl: "https://i.postimg.cc/vBJrqjFt/IMG-5895.jpg",
