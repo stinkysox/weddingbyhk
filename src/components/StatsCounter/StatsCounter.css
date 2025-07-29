@@ -27,7 +27,7 @@
 @media (min-width: 768px) {
   .stats-wrapper {
     flex-direction: row;
-    height: 40vh;
+    height: 100vh;
   }
 
   .stat-item {
