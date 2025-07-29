@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Meie+Script&display=swap");
+
+.banner-bottom {
+  position: relative;
+  height: 14vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Meie Script", cursive;
+  overflow: hidden;
+}
+
+/* Heading styles */
+.banner-bottom-heading {
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 0 1rem;
+}
+
+/* 🚫 Hide banner-bottom on desktop (e.g., screens wider than 1024px) */
+@media screen and (min-width: 1024px) {
+  .banner-bottom {
+    display: none;
+  }
+}
