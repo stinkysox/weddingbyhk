@@ -9,7 +9,7 @@ const stats = [
   { label: "15-20 Prewedding Edit photos", photos: "—", hideCount: true },
   { label: "Traditional Video", photos: "2 to 3 hours", hideCount: true },
   { label: "Cinematic Video", photos: "3–4 minutes", hideCount: true },
-  { label: "Wedding Reels", photos: "2 Highlight Reels", hideCount: true },
+  { label: "Wedding Reels", photos: "2", hideCount: true },
   { count: 150, label: "Engagement Shoots", photos: "150 Photo Album" },
   { count: 30, label: "Baby Shoots", photos: "150 Photo Album" },
   { count: 25, label: "Maternity Shoots", photos: "—" },
