@@ -15,7 +15,8 @@ const MarqueeImages = () => {
         imageUrl: "https://i.postimg.cc/kMQW7vrD/IMG-2375.jpg",
       },
       {
-        imageUrl: "https://i.postimg.cc/rmKcQJSj/IMG-9380.jpg",
+        imageUrl:
+          "https://i.postimg.cc/02dYnct7/C494535-D-B877-4384-BD41-F0-EE3407-BD13.jpg",
       },
       {
         imageUrl: "https://i.postimg.cc/4xSWpQxs/IMG-9028.jpg",
@@ -30,13 +31,13 @@ const MarqueeImages = () => {
         imageUrl: "https://i.postimg.cc/Hn6GQ8N5/IMG-2368.jpg",
       },
       {
-        imageUrl: "https://i.postimg.cc/15KTVFF3/IMG-9026.jpg",
+        imageUrl: "https://i.postimg.cc/vBJrqjFt/IMG-5895.jpg",
       },
       {
         imageUrl: "https://i.postimg.cc/bv4FfH73/IMG-9381.jpg",
       },
       {
-        imageUrl: "https://i.postimg.cc/q77dvLZr/IMG-9018.jpg",
+        imageUrl: "https://i.postimg.cc/ZqYVp149/IMG-5999.jpg",
       },
 
       {

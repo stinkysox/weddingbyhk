@@ -5,11 +5,11 @@ import { useInView } from "react-intersection-observer";
 import "./StatsCounter.css";
 
 const stats = [
-  { count: 70, label: "Marriage Shoots" },
-  { count: 50, label: "Pre-Wedding Shoots" },
-  { count: 60, label: "Engagement Shoots" },
-  { count: 45, label: "Baby Shoots" },
-  { count: 25, label: "Maternity Shoots" },
+  { count: 400, label: "Marriage Shoots", photos: "400 Photo Album" },
+  { count: 400, label: "Pre-Wedding Shoots", photos: "400 Photo Album" },
+  { count: 400, label: "Engagement Shoots", photos: "150 Photo Album" },
+  { count: 30, label: "Baby Shoots", photos: "150 Photo Album" },
+  { count: 25, label: "Maternity Shoots", photos: "—" },
 ];
 
 const StatsCounter = () => {
@@ -30,6 +30,9 @@ const StatsCounter = () => {
         >
           <h2>{inView && <CountUp end={item.count} duration={2} />}+</h2>
           <p>{item.label}</p>
+          {item.photos !== "—" && (
+            <span className="photo-info">{item.photos}</span>
+          )}
         </motion.div>
       ))}
     </div>

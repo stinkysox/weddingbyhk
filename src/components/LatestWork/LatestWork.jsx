@@ -127,6 +127,37 @@ const initialCategories = {
         "https://i.postimg.cc/K8CnGZND/Whats-App-Image-2025-07-29-at-1-00-06-PM.jpg",
       category: "Wedding",
     },
+    {
+      imageUrl:
+        "https://i.postimg.cc/02dYnct7/C494535-D-B877-4384-BD41-F0-EE3407-BD13.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl: "https://i.postimg.cc/QddTbsKr/IMG-9386.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl: "https://i.postimg.cc/cCcvR5sH/IMG-9391.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl:
+        "https://i.postimg.cc/CMCnpdjg/914-A0-B31-DDE2-4-B5-B-9-DEA-49-D3-A27-D07-C0.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl: "https://i.postimg.cc/qMjtgYbD/IMG-5863-1.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl: "https://i.postimg.cc/Z5QCxNhr/IMG-5887.jpg",
+      category: "Wedding",
+    },
+    {
+      imageUrl:
+        "https://i.postimg.cc/PxWJHFv4/1-C4-FFE66-1090-4-E83-A8-CE-C61-F242-CB863.jpg",
+      category: "Wedding",
+    },
   ],
 
   Prewedding: [
