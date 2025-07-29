@@ -31,7 +31,7 @@ const ContactSection = () => {
           <FaInstagram size={30} />
         </a>
         <a
-          href="https://wa.me/8979841076"
+          href="https://wa.me/+918979841076"
           className="icon-btn whatsapp"
           target="_blank"
           rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const ContactSection = () => {
         </a>
       </div>
 
-      <p className="contact-text">897 984 1076</p>
+      <p className="contact-text">+91 897 984 1076</p>
     </div>
   );
 };
