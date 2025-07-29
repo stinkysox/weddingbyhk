@@ -6,7 +6,7 @@ import "./StatsCounter.css";
 
 const stats = [
   { count: 400, label: "Marriage Shoots", photos: "400 Photo Album" },
-  { count: 400, label: "Pre-Wedding Shoots", photos: "15-20 edited photos" },
+  { label: "15-20 Prewedding Edit photos", photos: "—", hideCount: true },
   { count: 150, label: "Engagement Shoots", photos: "150 Photo Album" },
   { count: 30, label: "Baby Shoots", photos: "150 Photo Album" },
   { count: 25, label: "Maternity Shoots", photos: "—" },
@@ -28,7 +28,9 @@ const StatsCounter = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: index * 0.2 }}
         >
-          <h2>{inView && <CountUp end={item.count} duration={2} />}+</h2>
+          {!item.hideCount && (
+            <h2>{inView && <CountUp end={item.count} duration={2} />}+</h2>
+          )}
           <p>{item.label}</p>
           {item.photos !== "—" && (
             <span className="photo-info">{item.photos}</span>

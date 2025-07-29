@@ -20,7 +20,7 @@ const MarqueeImages = () => {
           "https://i.postimg.cc/02dYnct7/C494535-D-B877-4384-BD41-F0-EE3407-BD13.jpg",
       },
       {
-        imageUrl: "https://i.postimg.cc/4xSWpQxs/IMG-9028.jpg",
+        imageUrl: "https://i.postimg.cc/YCwz6jQD/IMG-6423-1.jpg",
       },
 
       {
